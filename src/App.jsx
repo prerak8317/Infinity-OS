@@ -1,7 +1,7 @@
 import { useState } from "react";
 import BottomNav from "./Component/bottomNav/BottomNav";
 import DragApp from "./Component/dragApp/DragApp";
-import bgImg from "./images/bg.png";
+import bgImg from "./images/bg.webp";
 
 function App() {
   return (
