@@ -1,13 +1,14 @@
 import { useState } from "react";
 import BottomNav from "./Component/bottomNav/BottomNav";
 import DragApp from "./Component/dragApp/DragApp";
+import bgImg from "./images/bg.png";
 
 function App() {
   return (
     <>
       <div className="relative h-screen w-full">
         <img
-          src="/bg.png"
+          src={bgImg}
           alt="background"
           className="absolute inset-0 w-full h-full object-cover z-0"
           style={{ pointerEvents: "none" }}
