@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="relative h-screen w-full">
         <img
-          src={"./src/images/bg.png"}
+          src="/bg.png"
           alt="background"
           className="absolute inset-0 w-full h-full object-cover z-0"
           style={{ pointerEvents: "none" }}
